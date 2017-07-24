@@ -23,16 +23,8 @@ town = {
 # - Remove "Belle" from `residents`
 # - Add "Belle" to the `guests` array
 # Type your solution directly below this line:
-def remove_belle
-  town[:residents][1].remove!
-end
-def belle_guest
-  town[:guests] << "Belle"
-end
-puts town[:residents]
-puts town[:guests]
-
-
+town[:castle][:guests] << town[:residents][1]
+puts town[:castle][:guests]
 
 # Question 3
 # Assume you have an array of strings representing friends' names...
