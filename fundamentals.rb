@@ -1,4 +1,3 @@
-require "pry"
 # Question 1
 # Define a method called `offer_rose`, which should take one argument named `person` (String).
 # When called the method should print to the terminal:
@@ -48,5 +47,3 @@ friends = ["Chip Potts", "Cogsworth", "Lumière", "Mrs. Potts"]
 friends.each do |person|
   puts "Belle is friends with #{person}"
 end
-
-binding.pry
