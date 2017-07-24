@@ -34,7 +34,7 @@ not_timone = Animal.new("Pumba")
 # Type your solution directly below this line:
 class Lion < Animal
 
-  def king
+  def @king
     if @name == "Simba"
       return true
     end
